@@ -1,0 +1,53 @@
+#intro {
+  height: 750px;
+  background: url('../assets/Background_Intro.png') no-repeat center/cover;
+
+  header {
+    max-width: 680px;
+    text-align: center;
+
+    h1 {
+      font: var(--title-lg);
+      color: var(--color-gray-100);
+    }
+
+    h3 {
+      margin-top: 56px;
+
+      font: var(--subtitle);
+      color: var(--color-gray-200);
+
+      span {
+        color: var(--color-red);
+      }
+    }
+
+    p {
+      margin-top: 18px;
+
+      font: var(--text-sm);
+      color: var(--color-gray-300);
+    }
+  }
+
+  #tags {
+    gap: 16px;
+    margin-top: 80px;
+    min-width: 754px;
+
+    .tag {
+      gap: 8px;
+      padding: 8px 16px;
+
+      background-color: var(--color-gray-400);
+      border-radius: 999px;
+
+      font: var(--text-md);
+      color: var(--color-gray-200);
+    }
+  }
+
+  #caret-double-down-icon {
+    margin-top: 94px;
+  }
+}
