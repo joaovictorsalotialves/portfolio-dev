@@ -10,3 +10,15 @@
 .column {
   flex-direction: column;
 }
+
+.grid {
+  display: grid;
+}
+
+.template-columns-3 {
+  grid-template-columns: repeat(3, 330px);
+}
+
+.gap-24 {
+  gap: 24px;
+}
