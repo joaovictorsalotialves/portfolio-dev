@@ -48,4 +48,8 @@
       }
     }
   }
+
+  figure:hover {
+    border: solid 1.5px var(--color-gray-300);
+  }
 }

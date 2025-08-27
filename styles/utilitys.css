@@ -15,7 +15,11 @@
   display: grid;
 }
 
-.template-columns-3 {
+.template-columns-3-280px {
+  grid-template-columns: repeat(3, 280px);
+}
+
+.template-columns-3-330px {
   grid-template-columns: repeat(3, 330px);
 }
 
